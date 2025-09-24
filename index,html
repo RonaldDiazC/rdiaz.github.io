@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio del Desarrollador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .info {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .link {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sitio Web del Desarrollador</h1>
+        
+        <div class="info">
+            <p><strong>Este sitio contiene los archivos necesarios para la verificación de AdMob.</strong></p>
+            <p>Archivo app-ads.txt disponible para la monetización de aplicaciones móviles.</p>
+        </div>
+        
+        <p>Enlaces importantes:</p>
+        <a href="/rdiaz.github.io/app-ads.txt" class="link">📄 Ver app-ads.txt</a>
+        
+        <div class="info">
+            <p><strong>Información del desarrollador:</strong></p>
+            <p>Sitio web oficial para aplicaciones desarrolladas y publicadas en Google Play Store.</p>
+        </div>
+    </div>
+</body>
+</html>
